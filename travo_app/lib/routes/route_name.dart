@@ -1,0 +1,31 @@
+class RoutName {
+  static const splashRouteName = '/';
+  static const onBoardingRouteName = '/onBoarding';
+  static const homeRouteName = '/home';
+  static const signInRouteName = '/sign-in';
+  static const signUpRouteName = '/sign-up';
+  static const forgotPasswordRouteName = '/forgot-password';
+  static const hotelRouteName = '/hotel';
+  static const userRouteName = '/user';
+  static const detailHotelRouteName = '/hotel-detail/:hotel';
+  static const roomRouteName = '/room/:hotelId';
+  static const favouriteRouteName = '/favourite';
+  static const bookingHotelRouteName = '/booking-hotel/:room';
+  static const addContactRouteName = '/add-contact';
+  static const addPromoCodeRouteName = '/add-promo-code';
+  static const paymentRouteName = '/payment';
+  static const addCardRouteName = '/add-card';
+  static const confirmBookingRoomRouteName = '/confirm-booking-room';
+  static const listPaymentRouteName = '/list-payment';
+  static const searchBookingFlightRouteName = '/search-booking-flight';
+  static const searchResultFlightRouteName = '/list-search-result-flight';
+  static const filterFacilitiesFlightRouteName = '/list-facilities';
+  static const sortFlightRouteName = '/list-sort';
+  static const selectSeatRouteName = '/select-seat';
+  static const bookReviewFlight = '/book-review-flight';
+  static const paymentFlight = '/payment-flight';
+  static const confirmFlight = '/confirm-flight';
+  static const filterFacilities = '/filter-facilities';
+  static const filterSort = '/filter-sort';
+  static const reviewHotel = '/review-hotel';
+}
